@@ -31,12 +31,12 @@ class MyMenuBottomSheetNavigationImpl @Inject constructor() : MyMenuBottomSheetN
         dialog?.dismiss()
     }
 
-    @Module
+    /*@Module
     @InstallIn(ActivityComponent::class)
     abstract class MyMenuBottomSheetNavigationModule {
         @Binds
         abstract fun go(
             menuBottomSheetNavigationImpl: MyMenuBottomSheetNavigationImpl
         ): MyMenuBottomSheetNavigation
-    }
+    }*/
 }

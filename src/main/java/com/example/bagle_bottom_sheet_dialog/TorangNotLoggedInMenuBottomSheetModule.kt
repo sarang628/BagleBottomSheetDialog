@@ -33,12 +33,12 @@ class NotLoggedInMenuBottomSheetNavigationImpl @Inject constructor() : NotLogged
         dialog?.dismiss()
     }
 
-    @Module
+    /*@Module
     @InstallIn(ActivityComponent::class)
     abstract class NotLoggedInMenuBottomSheetNavigationModule {
         @Binds
         abstract fun go(
             menuBottomSheetNavigationImpl: NotLoggedInMenuBottomSheetNavigationImpl
         ): NotLoggedInMenuBottomSheetNavigation
-    }
+    }*/
 }

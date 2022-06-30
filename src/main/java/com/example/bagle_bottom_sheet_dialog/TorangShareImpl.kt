@@ -22,9 +22,10 @@ class TorangShareImpl @Inject constructor() : TorangShare {
     }
 }
 
+/*
 @Module
 @InstallIn(ActivityComponent::class)
 abstract class TorangShareModule {
     @Binds
     abstract fun provideTorangShare(torangShareImpl: TorangShareImpl): TorangShare
-}
+}*/
