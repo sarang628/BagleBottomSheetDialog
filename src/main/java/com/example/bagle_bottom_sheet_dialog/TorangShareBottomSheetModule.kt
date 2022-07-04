@@ -13,12 +13,12 @@ class ShareBottomSheetNavigationImpl @Inject constructor() : ShareBottomSheetNav
         TorangShareBottomSheetDialog(context).show()
     }
 
-    @Module
+    /*@Module
     @InstallIn(ActivityComponent::class)
     abstract class ShareBottomSheetNavigationModule {
         @Binds
         abstract fun go(
             shareBottomSheetNavigationImpl: ShareBottomSheetNavigationImpl
         ): ShareBottomSheetNavigation
-    }
+    }*/
 }
